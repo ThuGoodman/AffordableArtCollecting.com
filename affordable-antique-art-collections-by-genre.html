@@ -1,0 +1,985 @@
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <title>Affordable Art Collecting</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+          
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <a class="navbar-brand" href="index.html"><img id="logo" src="images/Logo-affordableartcollecting.com-edited.PNG" alt="Affordable Art Collecting"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav navbar-center">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="affordable-antique-art-collections-by-genre.html">COLLECTIONS BY GENRE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="new-acquisitions-affordable-art-collecting.html">NEW ACQUISITIONS</a>
+                      </li>  
+                      <li class="nav-item">
+                        <a class="nav-link" href="video-blog-affordable-art-collecting.html">VIDEO BLOG</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about-affordable-art-collecting.html">ABOUT</a>
+                      </li>  
+                    </ul>
+                  </div>  
+              </nav>
+              
+            <h1 class="page-title">Collections By Genre</h1>
+        </header>
+        <main>
+        <!-- Control buttons -->
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> <a href="#">Show all</a></button>
+                <button class="btn" onclick="filterSelection('old')"> <a href="#">Old Master Engravings and Etchings</a> </button>
+                <button class="btn" onclick="filterSelection('19')"> <a href="#">19th Century</a></button>
+                <button class="btn" onclick="filterSelection('20')"> <a href="#">20th Century</a></button>
+                <button class="btn" onclick="filterSelection('modern')"> <a href="#">Modern Art</a></button>
+                <button class="btn" onclick="filterSelection('contemporary')"> <a href="#">Contemporary Art</a></button>
+                <button class="btn" onclick="filterSelection('op')"> <a href="#">Op Art</a></button>
+                <button class="btn" onclick="filterSelection('visionary')"> <a href="#">Visionary Art</a></button>
+            </div>
+  
+        <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+            <div class="gallery">
+                <a href="ProductDetail.html?id=op1" target="blank" title="1978 Abstract Composition Signed Serigraph On Blue Paper Op Art">
+                    <div class="filterDiv op">
+                        <img src="images/1978-Abstract-Composition-Signed-Serigraph-On-Blue-Paper-Op-Art.jpg" alt="1978 Abstract Composition Signed Serigraph On Blue Paper Op Art"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th5" target="blank" title="19th C. Watercolor Original Antique Painting Asian scene On Rice Paper">
+                    <div class="filterDiv 19">
+                        <img src="images/19th-C.-Watercolor-Original-Antique-Painting-Asian-scene-On-Rice-Paper.jpg" alt="19th C. Watercolor Original Antique Painting Asian scene On Rice Paper"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th10" target="blank" title="Original Antique Drawing 19th C. Wounded Hunter With Dog Signed">
+                    <div class="filterDiv 19">
+                        <img src="images/Original-Antique-Drawing-19th-C.-Wounded-Hunter-With-Dog-Signed.jpg" alt="Original Antique Drawing 19th C. Wounded Hunter With Dog Signed"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=19th9" target="blank" title="Original 19th C. Cartoon Watercolor 1894 Signed Walter Richards">
+                    <div class="filterDiv 19">
+                        <img src="images/Original-19th-C.-Cartoon-Watercolor-1894-Signed-Walter-Richards.jpg" alt="Original 19th C. Cartoon Watercolor 1894 Signed Walter Richards"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th8" target="blank" title="Original 19th C. Antique Watercolor Genre Scene With Mountains 1882">
+                    <div class="filterDiv 19">
+                        <img src="images/Original-19th-C.-Antique-Watercolor-Genre-Scene-With-Mountains-1882.jpg" alt="Original 19th C. Antique Watercolor Genre Scene With Mountains 1882"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=old91" target="blank" title="Antique William Hogarth Engraving, 1822, Heath Ed, The Roast Beef Of Old England">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-William-Hogarth-Engraving-1822-Heath-Ed-The-Roast-Beef-Of-Old-England.jpg" alt="Antique William Hogarth Engraving, 1822, Heath Ed, The Roast Beef Of Old England"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old92" target="blank" title="Antique William Hogarth Engraving, 1822, Heath Edition, Cruelty, Superstition">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-William-Hogarth-Engraving-1822-Heath-Edition-Cruelty-Superstition.jpg" alt="Antique William Hogarth Engraving, 1822, Heath Edition, Cruelty, Superstition"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old93" target="blank" title="Antique William Hogarth Engraving, 1822, Heath Edition, Politician">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-William-Hogarth-Engraving-1822-Heath-Edition-Politician.jpg" alt="Antique William Hogarth Engraving, 1822, Heath Edition, Politician"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old94" target="blank" title="Antique William Hogarth Engraving, 1822, Heath Edition, Self-Portrait">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-William-Hogarth-Engraving-1822-Heath-Edition-Self-Portrait.jpg" alt="Antique William Hogarth Engraving, 1822, Heath Edition, Self-Portrait"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old95" target="blank" title="Antique William Hogarth Engraving, 1822, Heath Edition, Shrimp Girl">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-William-Hogarth-Engraving-1822-Heath-Edition-Shrimp-Girl.jpg" alt="Antique William Hogarth Engraving, 1822, Heath Edition, Shrimp Girl"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=19th18" target="blank" title="Original Antique Watercolor, Late 19th c., A.K. Rudd">
+                    <div class="filterDiv 19">
+                        <img src="images/Original-Antique-Watercolor-Late-19th-c.-A.K.-Rudd.jpg" alt="Original Antique Watercolor, Late 19th c., A.K. Rudd"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th6" target="blank" title="1816-1882 Original Antique Albumen Print Carlo Naya Rialto Bridge Venice">
+                    <div class="filterDiv 19">
+                        <img src="images/1816-1882-Original-Antique-Albumen-Print-Carlo-Naya-Rialto-Bridge-Venice.jpg" alt="1816-1882 Original Antique Albumen Print Carlo Naya Rialto Bridge Venice"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th1" target="blank" title="1970, Stunning Large Signed Serigraph By German, H. Werder, Surrealism">
+                    <div class="filterDiv 20">
+                        <img src="images/1970-Stunning-Large-Signed-Serigraph-By-German-H.-Werder-Surrealism.jpg" alt="1970, Stunning Large Signed Serigraph By German, H. Werder, Surrealism"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th7" target="blank" title="Original Genre Drawing, 1931, Arthur Krause, German Youth">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Genre-Drawing-1931-Arthur-Krause-German-Youth.jpg" alt="Original Genre Drawing, 1931, Arthur Krause, German Youth"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th3" target="blank" title="Original Drawing, 1925, German Arthur Krause, Genre Studies, Signed">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Drawing-1925-German-Arthur-Krause-Genre-Studies-Signed.jpg" alt="Original Drawing, 1925, German Arthur Krause, Genre Studies, Signed"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th4" target="blank" title="Original Drawing, German Arthur Krause, 1920-30’s.">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Drawing-German-Arthur-Krause-1920-30.jpg" alt="Original Drawing, German Arthur Krause, 1920-30’s."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th5" target="blank" title="Original Drawing, German Arthur Krause, 1920-30’s">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Drawing-German-Arthur-Krause-1920-30..jpg" alt="Original Drawing, German Arthur Krause, 1920-30’s"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th8" target="blank" title="Original Antique Watercolor, Still-Life, Handwriting Verso">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Antique-Watercolor-Still-Life-Handwriting-Verso.jpg" alt="Original Antique Watercolor, Still-Life, Handwriting Verso"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th10" target="blank" title="Original Signed Leopold Hugo Photograph, Cliffside Scene">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Signed-Leopold-Hugo-Photograph-Cliffside-Scene.jpg" alt="Original Signed Leopold Hugo Photograph, Cliffside Scene"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th12" target="blank" title="Rare, 2 Handmade Mid Century German Advertisements, Gouache, Leitgeb Fiberboard">
+                    <div class="filterDiv 20">
+                        <img src="images/Rare-2-Handmade-Mid-Century-German-Advertisements-Gouache-Leitgeb-Fiberboard.jpg" alt="Rare, 2 Handmade Mid Century German Advertisements, Gouache, Leitgeb Fiberboard"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th13" target="blank" title="Gorgeous Original Antique Watercolor, A.K. Rudd, 1904, British">
+                    <div class="filterDiv 20">
+                        <img src="images/Gorgeous-Original-Antique-Watercolor-A.K.-Rudd-1904-British.jpg" alt="Gorgeous Original Antique Watercolor, A.K. Rudd, 1904, British"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con1" target="blank" title="1976 Original Signed German Contemporary Art, Color Serigraph, Collage Montage">
+                    <div class="filterDiv contemporary">
+                        <img src="images/1976-Original-Signed-German-Contemporary-Art-Color-Serigraph-Collage-Montage.jpg" alt="1976 Original Signed German Contemporary Art, Color Serigraph, Collage Montage"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con5" target="blank" title="Signed Color Serigraph by Swiss Hansjörg Mattmüller (1923-2006), (around 1980?)">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Signed-Color-Serigraph-by-Swiss-Hansjörg-Mattmüller-(1923-2006),-(around-1980).jpg" alt="Signed Color Serigraph by Swiss Hansjörg Mattmüller (1923-2006), (around 1980?)"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con4" target="blank" title="Original Contemporary Painting, Famous British Artist Pamela Guille Arca Signed">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Original-Contemporary-Painting-Famous-British-Artist-Pamela-Guille-Arca-Signed.jpg" alt="Original Contemporary Painting, Famous British Artist Pamela Guille Arca Signed"/>
+                    </div>
+                </a> 
+                <a href="ProductDetail.html?id=con6" target="blank" title="Original Pencil Signed Vintage Serigraph, Abstract Composition, Guessing 1980’s">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Original-Pencil-Signed-Vintage-Serigraph-Abstract-Composition-Guessing-1980.jpg" alt="Original Pencil Signed Vintage Serigraph, Abstract Composition, Guessing 1980’s"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con9" target="blank" title="Original Signed Woodcut, Around 1970, Farm Scene With Pigs">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Original-Signed-Woodcut-Around-1970-Farm-Scene-With-Pigs.jpg" alt="Original Signed Woodcut, Around 1970, Farm Scene With Pigs"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con10" target="blank" title="Original Contemporary Serigraph, Pamela Guille Arca, Pencil Signed Numbered">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Original-Contemporary-Serigraph-Pamela-Guille-Arca-Pencil-Signed-Numbered.jpg" alt="Original Contemporary Serigraph, Pamela Guille Arca, Pencil Signed Numbered"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con11" target="blank" title="Original Contemporary Serigraph, Famous British Artist Pamela Guille Arca signed">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Original-Contemporary-Serigraph-Famous-British-Artist-Pamela-Guille-Arca-signed.jpg" alt="Original Contemporary Serigraph, Famous British Artist Pamela Guille Arca signed"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con12" target="blank" title="Listed Artist Naomi Savage, Hand-Signed Digital Print, 2000">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Listed-Artist-Naomi-Savage-Hand-Signed-Digital-Print-2000.jpg" alt="Listed Artist Naomi Savage, Hand-Signed Digital Print, 2000"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con13" target="blank" title="Framed Pencil-Signed Don Swann Etching, Baltimore">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Framed-Pencil-Signed-Don-Swann-Etching-Baltimore.jpg" alt="Framed Pencil-Signed Don Swann Etching, Baltimore"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=op2" target="blank" title="Original Signed Op Art Lithograph, German, 1972, Wolfgand Maria Ohlhauser">
+                    <div class="filterDiv op">
+                        <img src="images/Original-Signed-Op-Art-Lithograph-German-1972-Wolfgand-Maria-Ohlhauser.jpg" alt="Original Signed Op Art Lithograph, German, 1972, Wolfgand Maria Ohlhauser"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=con14" target="blank" title="Gorgeous Original Gouache Children’s Book Illustration, 20th c.">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Gorgeous-Original-Gouache-Childrens-Book-Illustration-20th-c..jpg" alt="Gorgeous Original Gouache Children’s Book Illustration, 20th c."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con15" target="blank" title="Large Original Oil on Canvas Painting, Pulp Style, Contemporary, Erotic Art">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Large-Original-Oil-on-Canvas-Painting-Pulp-Style-Contemporary-Erotic-Art.jpg" alt="Large Original Oil on Canvas Painting, Pulp Style, Contemporary, Erotic Art"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con16" target="blank" title="Original Framed Pencil Signed Don Swann Etching, Baltimore">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Original-Framed-Pencil-Signed-Don-Swann-Etching-Baltimore.jpg" alt="Original Framed Pencil Signed Don Swann Etching, Baltimore"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con17" target="blank" title="Signed Original Gouache Painting for Romance Novel, 70’s, Lawrence Houghton">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Signed-Original-Gouache-Painting-for-Romance-Novel-70s-Lawrence-Houghton.jpg" alt="Signed Original Gouache Painting for Romance Novel, 70’s, Lawrence Houghton"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con18" target="blank" title="Stunning Original Gouache Illustration for Children’s Book, 20th C. ">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Stunning-Original-Gouache-Illustration-for-Childrens-Book-20th-C..jpg" alt="Stunning Original Gouache Illustration for Children’s Book, 20th C. "/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con8" target="blank" title="Signed Abstract Etching, Contemporary Art, Listed Artist Kuno Stöckli 1982">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Signed-Abstract-Etching-Contemporary-Art-Listed-Artist-Kuno-Stockli-1982.jpg" alt="Signed Abstract Etching, Contemporary Art, Listed Artist Kuno Stöckli 1982"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con7" target="blank" title="Signed Original German Contemporary Art, 1976, Color Serigraph, Apollo And Muses">
+                    <div class="filterDiv contemporary">
+                        <img src="images/Signed-Original-German-Contemporary-Art-1976-Color-Serigraph-Apollo-And-Muses.jpg" alt="Signed Original German Contemporary Art, 1976, Color Serigraph, Apollo And Muses"/>
+                    </div>
+                </a>   
+            
+                <a href="ProductDetail.html?id=mod1" target="blank" title="Hand-Signed Carl Bucher Serigraph Exhibition Poster 1968 Swiss Modernist">
+                    <div class="filterDiv modern">
+                        <img src="images/Hand-Signed-Carl-Bucher-Serigraph-Exhibition-Poster-1968-Swiss-Modernist.jpg" alt="Hand-Signed Carl Bucher Serigraph Exhibition Poster 1968 Swiss Modernist"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con3" target="blank" title="1989, Signed Original Contemporary Art, Woodcut By German Werner Merzhauser">
+                    <div class="filterDiv contemporary">
+                        <img src="images/1989-Signed-Original-Contemporary-Art-Woodcut-By-German-Werner-Merzhauser.jpg" alt="1989, Signed Original Contemporary Art, Woodcut By German Werner Merzhauser"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod2" target="blank" title="Original Signed Walter Bodmer, Swiss Modernist, Lithograph, Abstract">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Signed-Walter-Bodmer-Swiss-Modernist-Lithograph-Abstract.jpg" alt="Original Signed Walter Bodmer, Swiss Modernist, Lithograph, Abstract"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod3" target="blank" title="Original Modern Art, Linocut, 1950’s, Holy Family">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Modern-Art-Linocut-1950-s-Holy-Family.jpg" alt="Original Modern Art, Linocut, 1950’s, Holy Family"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=mod9" target="blank" title="Original 1950’s Wood Cut, Rooster, Vintage Art">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-1950-s-Wood-Cut-Rooster-Vintage-Art.jpg" alt="Original 1950’s Wood Cut, Rooster, Vintage Art"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod8" target="blank" title="Werner Merzhauser (b.1943) Pencil Signed Original Woodcut, German Modernist">
+                    <div class="filterDiv modern">
+                        <img src="images/Werner-Merzhauser-(b.1943)-Pencil-Signed-Original-Woodcut-German-Modernist.jpg" alt="Werner Merzhauser (b.1943) Pencil Signed Original Woodcut, German Modernist"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod6" target="blank" title="Initialed And Dated Original Watercolor, 1956, European Mountainscape">
+                    <div class="filterDiv modern">
+                        <img src="images/Initialed-And-Dated-Original-Watercolor-1956-European-Mountainscape.jpg" alt="Initialed And Dated Original Watercolor, 1956, European Mountainscape"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod7" target="blank" title="Original Pencil Signed And Dated Woodcut, 1958, Fallen Angel">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Pencil-Signed-And-Dated-Woodcut-1958-Fallen-Angel.jpg" alt="Original Pencil Signed And Dated Woodcut, 1958, Fallen Angel"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod16" target="blank" title="Signed Original Woodcut Of Bird Subject With Leaf, 1955">
+                    <div class="filterDiv modern">
+                        <img src="images/Signed-Original-Woodcut-Of-Bird-Subject-With-Leaf-1955.jpg" alt="Signed Original Woodcut Of Bird Subject With Leaf, 1955"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod14" target="blank" title="Original Vintage Woodcut, Centour Mythology, 1950’s">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Vintage-Woodcut-Centour-Mythology-1950-s.jpg" alt="Original Vintage Woodcut, Centour Mythology, 1950’s"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod17" target="blank" title="Original Pencil Signed And Dated Woodcut, 1958">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Pencil-Signed-And-Dated-Woodcut-1958.jpg" alt="Original Pencil Signed And Dated Woodcut, 1958"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod10" target="blank" title="Pencil Signed And Numbered Expressionist Chalk Lithograph, A. Zschokke (b.1894)">
+                    <div class="filterDiv modern">
+                        <img src="images/Pencil-Signed-And-Numbered-Expressionist-Chalk-Lithograph-A.-Zschokke-(b.1894).jpg" alt="Pencil Signed And Numbered Expressionist Chalk Lithograph, A. Zschokke (b.1894)"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod15" target="blank" title="Pencil Signed And Dated Original Woodcut, 1958, Fallen Angel">
+                    <div class="filterDiv modern">
+                        <img src="images/Pencil-Signed-And-Dated-Original-Woodcut-1958-Fallen-Angel.jpg" alt="Pencil Signed And Dated Original Woodcut, 1958, Fallen Angel"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod18" target="blank" title="Original Signed Color Lithograph, 1957, Arc, With Handwriting">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Signed-Color-Lithograph-1957-Arc-With-Handwriting.jpg" alt="Original Signed Color Lithograph, 1957, Arc, With Handwriting"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod19" target="blank" title="British Satirical Engraving, 1872, London News">
+                    <div class="filterDiv modern">
+                        <img src="images/British-Satirical-Engraving-1872-London-News.jpg" alt="British Satirical Engraving, 1872, London News"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod20" target="blank" title="Framed Pencil Signed Fritz Janowski Etching">
+                    <div class="filterDiv modern">
+                        <img src="images/Framed-Pencil-Signed-Fritz-Janowski-Etching.jpg" alt="Framed Pencil Signed Fritz Janowski Etching"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod21" target="blank" title="German Expressionist Lithograph, 19-20th c. Signed in Plate">
+                    <div class="filterDiv modern">
+                        <img src="images/German-Expressionist-Lithograph-19-20th-c.-Signed-in-Plate.jpg" alt="German Expressionist Lithograph, 19-20th c. Signed in Plate"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod4" target="blank" title="Original Signed Serigraph, 1970, Modern Abstract Art">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Signed-Serigraph-1970-Modern-Abstract-Art.jpg" alt="Original Signed Serigraph, 1970, Modern Abstract Art"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod22" target="blank" title="Mid 19th c. Engravings from The Illustrated News London, Satire, Cartoons">
+                    <div class="filterDiv modern">
+                        <img src="images/Mid-19th-c.-Engravings-from-The-Illustrated-News-London-Satire-Cartoons.jpg" alt="Mid 19th c. Engravings from The Illustrated News London, Satire, Cartoons"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod11" target="blank" title="Original Signed Vintage Woodcut, 1950’s, Horse">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Signed-Vintage-Woodcut-1950-s-Horse.jpg" alt="Original Signed Vintage Woodcut, 1950’s, Horse"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod12" target="blank" title="Original Signed Woodcut, 1950’s, Episodic Scene With Bird, Person, Horse">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Signed-Woodcut-1950-s-Episodic-Scene-With-Bird-Person-Horse.jpg" alt="Original Signed Woodcut, 1950’s, Episodic Scene With Bird, Person, Horse"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=old1" target="blank" title="Antique Engraving Around 1850, Passion Of Christ, By Alois Petrak">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Engraving-Around-1850-Passion-Of-Christ-V-By-Alois-Petrak.jpg" alt="Antique Engraving Around 1850, Passion Of Christ, By Alois Petrak"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old3" target="blank" title="“La Jardinier” Antique Old Master Engraving Jacques Beauvarlet After Basan 1756">
+                    <div class="filterDiv old">
+                        <img src="images/“La-Jardinier”-Antique-Old-Master-Engraving-Jacques-Beauvarlet-After-Basan-1756.jpg" alt="“La Jardinier” Antique Old Master Engraving Jacques Beauvarlet After Basan 1756"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old2" target="blank" title="Antique Engraving, Around 1850, Passion Of Christ, Stage VII, By Alois Petrak">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Engraving-Around-1850-Passion-Of-Christ-Stage-VII-By-Alois-Petrak.jpg" alt="Antique Engraving, Around 1850, Passion Of Christ, Stage VII, By Alois Petrak"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old4" target="blank" title="2 Antique Theatrical Engravings, Old Master, By Fabris After Smirke, London 1799">
+                    <div class="filterDiv old">
+                        <img src="images/2-Antique-Theatrical-Engravings-Old-Master-By-Fabris-After-Smirke-London-1799.jpg" alt="2 Antique Theatrical Engravings, Old Master, By Fabris After Smirke, London 1799"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old5" target="blank" title="19th C. Antique Engraving, Bloodhound Dog">
+                    <div class="filterDiv old">
+                        <img src="images/19th-C.-Antique-Engraving-Bloodhound-Dog.jpg" alt="19th C. Antique Engraving, Bloodhound Dog"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old7" target="blank" title="19th C. Engraving, Bull Subject">
+                    <div class="filterDiv old">
+                        <img src="images/19th-C.-Engraving-Bull-Subject.jpg" alt="19th C. Engraving, Bull Subject"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old13" target="blank" title="1796, Stunning Old Master Original Etching By J. de Frey After Drost">
+                    <div class="filterDiv old">
+                        <img src="images/1796-Stunning-Old-Master-Original-Etching-By-J.-de-Frey-After-Drost.jpg" alt="1796, Stunning Old Master Original Etching By J. de Frey After Drost"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old9" target="blank" title="1685, Antique Old Master Engraving Portrait Of Sir Geoge Crocke By R. Vaughan">
+                    <div class="filterDiv old">
+                        <img src="images/1685-Antique-Old-Master-Engraving-Portrait-Of-Sir-Geoge-Crocke-By-R.-Vaughan.jpg" alt="1685, Antique Old Master Engraving Portrait Of Sir Geoge Crocke By R. Vaughan"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old14" target="blank" title="1813, Antique Old Master Stipple Engraving Of Roger Bacon, From A Sadeler Print">
+                    <div class="filterDiv old">
+                        <img src="images/1813-Antique-Old-Master-Stipple-Engraving-Of-Roger-Bacon-From-A-Sadeler-Print.jpg" alt="1813, Antique Old Master Stipple Engraving Of Roger Bacon, From A Sadeler Print"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old17" target="blank" title="1901, The Preacher, Antique Etching By William Strang">
+                    <div class="filterDiv old">
+                        <img src="images/1901-The-Preacher-Antique-Etching-By-William-Strang.jpg" alt="1901, The Preacher, Antique Etching By William Strang"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old19" target="blank" title="Antique 19th C. Engraving, 1830, R. Scott After Laporte, Dog Subject">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-1830-R.-Scott-After-Laporte-Dog-Subject.jpg" alt="Antique 19th C. Engraving, 1830, R. Scott After Laporte, Dog Subject"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old20" target="blank" title="Antique 19th C. Engraving, Beckwith After Landseer, Dog Subject">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-Beckwith-After-Landseer-Dog-Subject.jpg" alt="Antique 19th C. Engraving, Beckwith After Landseer, Dog Subject"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old23" target="blank" title="Antique 19th C. Engraving, Dog Subject, R. Scott">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-Dog-Subject-R.-Scott.jpg" alt="Antique 19th C. Engraving, Dog Subject, R. Scott"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old22" target="blank" title="Antique 19th C. Engraving, Dog Subject, J. W. Archer, 1836">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-Dog-Subject-J.-W.-Archer-1836.jpg" alt="Antique 19th C. Engraving, Dog Subject, J. W. Archer, 1836"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old21" target="blank" title="Antique 19th C. Engraving, Dog Subject, Englehart After W. Smith">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-Dog-Subject-Englehart-After-W.-Smith.jpg" alt="Antique 19th C. Engraving, Dog Subject, Englehart After W. Smith"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old26" target="blank" title="Antique 19th C. Engraving, Thalia, F. Bacon After Duvall">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-Thalia-F.-Bacon-After-Duvall.jpg" alt="Antique 19th C. Engraving, Thalia, F. Bacon After Duvall"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old29" target="blank" title="Antique Art 19th C. Engraving By Old Master Whitfield After Stothard Cupid Bound">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Art-19th-C.-Engraving-By-Old-Master-Whitfield-After-Stothard-Cupid-Bound.jpg" alt="Antique Art 19th C. Engraving By Old Master Whitfield After Stothard Cupid Bound"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old36" target="blank" title="Antique Engraving Cook After William Hogarth Martin Folkes 1802">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Engraving-Cook-After-William-Hogarth-Martin-Folkes-1802.jpg" alt="Antique Engraving Cook After William Hogarth Martin Folkes 1802"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old32" target="blank" title="Antique Copper Engraving By Christoph Von Mechel After J.R. Huber, Basel, 1709">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Copper-Engraving-By-Christoph-Von-Mechel-After-J.R.-Huber-Basel-1709.jpg" alt="Antique Copper Engraving By Christoph Von Mechel After J.R. Huber, Basel, 1709"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old33" target="blank" title="Antique Copper Engraving By Christophori Philippi Richteri, 1689">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Copper-Engraving-By-Christophori-Philippi-Richteri-1689.jpg" alt="Antique Copper Engraving By Christophori Philippi Richteri, 1689"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old34" target="blank" title="Antique Engraving B. Picart, 1730, Penelope Mythology">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Engraving-B.-Picart-1730-Penelope-Mythology.jpg" alt="Antique Engraving B. Picart, 1730, Penelope Mythology"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old35" target="blank" title="Antique Engraving B. Picart, Odysseus And Siren, 1731">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Engraving-B.-Picart-Odysseus-And-Siren-1731.jpg" alt="Antique Engraving B. Picart, Odysseus And Siren, 1731"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old46" target="blank" title="Copper engraving by Johann Ulrich Krauss at Krauss, around 1705, Genesis, Bible">
+                    <div class="filterDiv old">
+                        <img src="images/Copper-engraving-by-Johann-Ulrich-Krauss-at-Krauss-around-1705-Genesis-Bible.jpg" alt="Copper engraving by Johann Ulrich Krauss at Krauss, around 1705, Genesis, Bible"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old53" target="blank" title="Old Master Copper Engraving by Benard after Radel, (around 1770) 2">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-Engraving-by-Benard-after-Radel-(around-1770)-2.jpg" alt="Old Master Copper Engraving by Benard after Radel, (around 1770) 2"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old49" target="blank" title="1832, Antique Old Master Mezzotint After Sir Joshua Reynolds, By John Bromley">
+                    <div class="filterDiv old">
+                        <img src="images/1832-Antique-Old-Master-Mezzotint-After-Sir-Joshua-Reynolds-By-John-Bromley.jpg" alt="1832, Antique Old Master Mezzotint After Sir Joshua Reynolds, By John Bromley"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old76" target="blank" title="Hudibras Full Page T Cook Edition After William Hogarth, (1796-1803)">
+                    <div class="filterDiv old">
+                        <img src="images/Hudibras-Full-Page-T-Cook-Edition-After-William-Hogarth-(1796-1803).jpg" alt="Hudibras Full Page T Cook Edition After William Hogarth, (1796-1803)"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old72" target="blank" title="Small Hand Colored German Lithograph, Religious">
+                    <div class="filterDiv old">
+                        <img src="images/Small-Hand-Colored-German-Lithograph-Religious.jpg" alt="Small Hand Colored German Lithograph, Religious"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old45" target="blank" title="Copper engraving by Johann Ulrich Krauss at Krauss, around 1705, Genesis, Bible 2">
+                    <div class="filterDiv old">
+                        <img src="images/Copper-engraving-by-Johann-Ulrich-Krauss-at-Krauss-around-1705-Genesis-Bible-2.jpg" alt="Copper engraving by Johann Ulrich Krauss at Krauss, around 1705, Genesis, Bible 2"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old47" target="blank" title="Engraving by Lucas Schnitzer (Nuremberg 1600 - 1674), around 1674, Old Master">
+                    <div class="filterDiv old">
+                        <img src="images/Engraving-by-Lucas-Schnitzer-(Nuremberg-1600---1674)-around-1674-Old-Master.jpg" alt="Engraving by Lucas Schnitzer (Nuremberg 1600 - 1674), around 1674, Old Master"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old48" target="blank" title="Etching By Johannes Klaus, 19th C. After Pausinger, Old Master">
+                    <div class="filterDiv old">
+                        <img src="images/Etching-By-Johannes-Klaus-19th-C.-After-Pausinger-Old-Master.jpg" alt="Etching By Johannes Klaus, 19th C. After Pausinger, Old Master"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old50" target="blank" title="Framed Antique Old Master Mezzotint Rembrandt’s Wife, 1777, Earlom And Farington">
+                    <div class="filterDiv old">
+                        <img src="images/Framed-Antique-Old-Master-Mezzotint-Rembrandt-s-Wife-1777-Earlom-And-Farington.jpg" alt="Framed Antique Old Master Mezzotint Rembrandt’s Wife, 1777, Earlom And Farington"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old75" target="blank" title="William Hogarth’s The Times And Country Inn, Cook Edition, 1800">
+                    <div class="filterDiv old">
+                        <img src="images/William-Hogarth-s-The-Times-And-Country-Inn-Cook-Edition-1800.jpg" alt="William Hogarth’s The Times And Country Inn, Cook Edition, 1800"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old57" target="blank" title="Old Master Copper Engraving by Benard after Radel, (around 1770)">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-Engraving-by-Benard-after-Radel-(around-1770).jpg" alt="Old Master Copper Engraving by Benard after Radel, (around 1770)"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old54" target="blank" title="Old Master Copper Engraving by Benard after Radel, (around 1770) 3">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-Engraving-by-Benard-after-Radel-(around-1770)-3.jpg" alt="Old Master Copper Engraving by Benard after Radel, (around 1770) 3"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old55" target="blank" title="Old Master Copper Engraving by Benard after Radel, (around 1770) 4">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-Engraving-by-Benard-after-Radel-(around-1770)-4.jpg" alt="Old Master Copper Engraving by Benard after Radel, (around 1770) 4"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old56" target="blank" title="Old Master Copper Engraving by Benard after Radel, (around 1770) 5">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-Engraving-by-Benard-after-Radel-(around-1770)-5.jpg" alt="Old Master Copper Engraving by Benard after Radel, (around 1770) 5"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old58" target="blank" title="Old Master Copper engraving by Johann Ulrich Krauss, around 1705">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-engraving-by-Johann-Ulrich-Krauss-around-1705.jpg" alt="Old Master Copper engraving by Johann Ulrich Krauss, around 1705"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old60" target="blank" title="Old Master Copper Engraving Johann Ulrich Krauss, Around 1705, Genesis">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-Engraving-Johann-Ulrich-Krauss-Around-1705-Genesis.jpg" alt = "Old Master Copper Engraving Johann Ulrich Krauss, Around 1705, Genesis"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old59" target="blank" title="Old Master Copper Engraving Johann Ulrich Krauss, Around 1705, Genesis 2">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Copper-Engraving-Johann-Ulrich-Krauss-Around-1705-Genesis-2.jpg" alt="Old Master Copper Engraving Johann Ulrich Krauss, Around 1705, Genesis 2"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old61" target="blank" title="Old Master Etching By Julius Thaeter, 1837">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Etching-By-Julius-Thaeter-1837.jpg" alt="Old Master Etching By Julius Thaeter, 1837"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old67" target="blank" title="Rare Antique Stipple Engraving Of Elizabeth Of York, 1815 By W.T. Fry">
+                    <div class="filterDiv old">
+                        <img src="images/Rare-Antique-Stipple-Engraving-Of-Elizabeth-Of-York-1815-By-W.T.-Fry.jpg" alt="Rare Antique Stipple Engraving Of Elizabeth Of York, 1815 By W.T. Fry"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old63" target="blank" title="Original Copper Engraving, 1719, Johan Ulrich, Christian Scene, Biblical">
+                    <div class="filterDiv old">
+                        <img src="images/Original-Copper-Engraving-1719-Johan-Ulrich-Christian-Scene-Biblical.jpg" alt="Original Copper Engraving, 1719, Johan Ulrich, Christian Scene, Biblical"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old64" target="blank" title="Original Etching By Monogrammist H.G., Around 1900, Soldier Returns Home">
+                    <div class="filterDiv old">
+                        <img src="images/Original-Etching-By-Monogrammist-H.G.-Around-1900-Soldier-Returns-Home.jpg" alt="Original Etching By Monogrammist H.G., Around 1900, Soldier Returns Home"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old65" target="blank" title="Rare Antique 1829 Stipple Engraving Of Queen Jane Seymour By William Bond">
+                    <div class="filterDiv old">
+                        <img src="images/Rare-Antique-1829-Stipple-Engraving-Of-Queen-Jane-Seymour-By-William-Bond.jpg" alt="Rare Antique 1829 Stipple Engraving Of Queen Jane Seymour By William Bond"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old66" target="blank" title="Rare Antique Engraving Of Eadwine The Monk Earlt To Mid 18th C.">
+                    <div class="filterDiv old">
+                        <img src="images/Rare-Antique-Engraving-Of-Eadwine-The-Monk-Earlt-To-Mid-18th-C..jpg" alt="Rare Antique Engraving Of Eadwine The Monk Earlt To Mid 18th C."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old74" target="blank" title="Framed Pencil Signed Antique Etching Of German Shepherds, 19th C. Early 20th C.">
+                    <div class="filterDiv old">
+                        <img src="images/Framed-Pencil-Signed-Antique-Etching-Of-German-Shepherds-19th-C.-Early-20th-C..jpg" alt="Framed Pencil Signed Antique Etching Of German Shepherds, 19th C. Early 20th C."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old70" target="blank" title="Framed Old Master Antique Art Mezzotint Saint Theresia Martin Engelbrecht 1773">
+                    <div class="filterDiv old">
+                        <img src="images/Framed-Old-Master-Antique-Art-Mezzotint-Saint-Theresia-Martin-Engelbrecht-1773.jpg" alt="Framed Old Master Antique Art Mezzotint Saint Theresia Martin Engelbrecht 1773"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old69" target="blank" title="Two Stunning Antique Miniature 1850 Hand-Colored Engravings">
+                    <div class="filterDiv old 19">
+                        <img src="images/Two-Stunning-Antique-Miniature-1850-Hand-Colored-Engravings.jpg" alt="Two Stunning Antique Miniature 1850 Hand-Colored Engravings"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=old30" target="blank" title="Antique Art Old Master, Marie de Croy engraving aft Anthony van Dyck 1650">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Art-Old-Master-Marie-de-Croy-engraving-aft-Anthony-van-Dyck-1650.jpg" alt="Antique Art Old Master, Marie de Croy engraving aft Anthony van Dyck 1650"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old37" target="blank" title="Antique Engraving Cook Edition After William Hogarth Benjamin Hoadly 1802">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Engraving-Cook-Edition-After-William-Hogarth-Benjamin-Hoadly-1802.jpg" alt="Antique Engraving Cook Edition After William Hogarth Benjamin Hoadly 1802"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old71" target="blank" title="Original Woodcut, Johann Schofffer, 1530, Titus Livius">
+                    <div class="filterDiv old">
+                        <img src="images/Original-Woodcut-Johann-Schofffer-1530-Titus-Livius.jpg" alt="Original Woodcut, Johann Schofffer, 1530, Titus Livius"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th4" target="blank" title="19th C. Antique Old Master Mezzotint After Rubens, Shepherd’s Sunset">
+                    <div class="filterDiv old 19">
+                        <img src="images/19th-C.-Antique-Old-Master-Mezzotint-After-Rubens-Shepherd-Sunset.jpg" alt="19th C. Antique Old Master Mezzotint After Rubens, Shepherd’s Sunset"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th7" target="blank" title="Around 1880, Original Old Master Etching By Johannes Klaus After Victor Muller">
+                    <div class="filterDiv 19">
+                        <img src="images/Around-1880,-Original-Old-Master-Etching-By-Johannes-Klaus-After-Victor-Muller.jpg" alt="Around 1880, Original Old Master Etching By Johannes Klaus After Victor Muller"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th1" target="blank" title="Absolutely Gorgeous Large Romantic Color Aquatint, Around 1900, Signed In Plate">
+                    <div class="filterDiv 19">
+                        <img src="images/Absolutely-Gorgeous-Large-Romantic-Color-Aquatint-Around-1900-Signed-In-Plate.jpg" alt="Absolutely Gorgeous Large Romantic Color Aquatint, Around 1900, Signed In Plate"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th2" target="blank" title="Original Antique Drawing With Watercolor, Genre Scene, Hand Signed, 19th C.">
+                    <div class="filterDiv 19">
+                        <img src="images/Original-Antique-Drawing-With-Watercolor-Genre-Scene-Hand-Signed-19th-C..jpg" alt="Original Antique Drawing With Watercolor, Genre Scene, Hand Signed, 19th C."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th3" target="blank" title="Original Antique Watercolor, Hunting Scene, 19th C.">
+                    <div class="filterDiv 19">
+                        <img src="images/Original-Antique-Watercolor-Hunting-Scene-19th-C..jpg" alt="Original Antique Watercolor, Hunting Scene, 19th C."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old12" target="blank" title="1795, Antique Engraving By Clemente Pierre Marillier, Mythological Content">
+                    <div class="filterDiv old">
+                        <img src="images/1795-Antique-Engraving-By-Clemente-Pierre-Marillier-Mythological-Content.jpg" alt="1795, Antique Engraving By Clemente Pierre Marillier, Mythological Content"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=op3" target="blank" title="Original Signed Op Art Lithograph, German, 1972, Wolfgand Maria Ohlhauser">
+                    <div class="filterDiv op">
+                        <img src="images/Original-Signed-Op-Art-Lithograph-German-1972-Wolfgand-Maria-Ohlhauser-2.jpg" alt="Original Signed Op Art Lithograph, German, 1972, Wolfgand Maria Ohlhauser"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th11" target="blank" title="Pencil Signed Original Abstract Mixed-Media Drawing. Robierski, 1963">
+                    <div class="filterDiv 20 modern">
+                        <img src="images/Pencil-Signed-Original-Abstract-Mixed-Media-Drawing-Robierski-1963.jpg" alt="Pencil Signed Original Abstract Mixed-Media Drawing. Robierski, 1963"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th2" target="blank" title="Original Collage, Signed 1969, Pamela Guille Arca">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Collage-Signed-1969-Pamela-Guille-Arca.jpg" alt="Original Collage, Signed 1969, Pamela Guille Arca"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th6" target="blank" title="Original Framed Signed Pepe Diniz Photograph, 1976, Listed Famous Moroccan, NYC">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Framed-Signed-Pepe-Diniz-Photograph-1976-Listed-Famous-Moroccan-NYC.jpg" alt="Original Framed Signed Pepe Diniz Photograph, 1976, Listed Famous Moroccan, NYC"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=20th9" target="blank" title="Original Painting, Dante Manno, Mid-Century Movie Poster Illustration, Pulp Art">
+                    <div class="filterDiv 20">
+                        <img src="images/Original-Painting-Dante-Manno-Mid-Century-Movie-Poster-Illustration-Pulp-Art.jpg" alt="Original Painting, Dante Manno, Mid-Century Movie Poster Illustration, Pulp Art"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=con2" target="blank" title="1988, Pencil Signed Contemporary Art, Rudolf Bonvie Lithograph “Clean Up”">
+                    <div class="filterDiv contemporary">
+                        <img src="images/1988-Pencil-Signed-Contemporary-Art-Rudolf-Bonvie-Lithograph-“Clean-Up”.jpg" alt="1988, Pencil Signed Contemporary Art, Rudolf Bonvie Lithograph “Clean Up”"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod5" target="blank" title="1965, Original Vintage Color Lithograph, Abstract, Andre Beaudin (b. 1895)">
+                    <div class="filterDiv modern">
+                        <img src="images/1965-Original-Vintage-Color-Lithograph-Abstract-Andre-Beaudin-(b.-1895).jpg" alt="1965, Original Vintage Color Lithograph, Abstract, Andre Beaudin (b. 1895)"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=mod13" target="blank" title="Original Signed Woodcut, 1957, Fish Subject">
+                    <div class="filterDiv modern">
+                        <img src="images/Original-Signed-Woodcut-1957-Fish-Subject.jpg" alt="Original Signed Woodcut, 1957, Fish Subject"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old39" target="blank" title="Antique Hand-colored Engraving, 19th C. Dog Hunting Subject, After Cooper">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Hand-colored-Engraving-19th-C.-Dog-Hunting-Subject-After-Cooper.jpg" alt="Antique Hand-colored Engraving, 19th C. Dog Hunting Subject, After Cooper"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old15" target="blank" title="1820, Antique Samuel Howitt Engraving, Dog And Pig, Signed In Plate">
+                    <div class="filterDiv old">
+                        <img src="images/1820-Antique-Samuel-Howitt-Engraving-Dog-And-Pig-Signed-In-Plate.jpg" alt="1820, Antique Samuel Howitt Engraving, Dog And Pig, Signed In Plate"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old27" target="blank" title="Antique 19thc Old Master Engraving By C.W. Wass After W. Etty The Coral Finders">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19thc-Old-Master-Engraving-By-C.W.-Wass-After-W.-Etty-The-Coral-Finders.jpg" alt="Antique 19thc Old Master Engraving By C.W. Wass After W. Etty The Coral Finders"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old16" target="blank" title="1840, J. Outrim Antique Steel Engraving After Rubens, Rape Of The Sabines">
+                    <div class="filterDiv old">
+                        <img src="images/1840-J.-Outrim-Antique-Steel-Engraving-After-Rubens-Rape-Of-The-Sabines.jpg" alt="1840, J. Outrim Antique Steel Engraving After Rubens, Rape Of The Sabines"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old18" target="blank" title="A Midnight Modern Conversation, William Hogarth, Cook Edition, 1798">
+                    <div class="filterDiv old">
+                        <img src="images/A-Midnight-Modern-Conversation-William-Hogarth-Cook-Edition-1798.jpg" alt="A Midnight Modern Conversation, William Hogarth, Cook Edition, 1798"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old24" target="blank" title="Antique 19th C. Engraving, Engleheart After J.F. Tylor, Spanish Bullfight">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-Engleheart-After-J.F.-Tylor-Spanish-Bullfight.jpg" alt="Antique 19th C. Engraving, Engleheart After J.F. Tylor, Spanish Bullfight"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old78" target="blank" title="1887, Heliogravure After Ferdinand Georg Waldmuller, The Monastery Soup">
+                    <div class="filterDiv old">
+                        <img src="images/1887-Heliogravure-After-Ferdinand-Georg-Waldmuller-The-Monastery-Soup.jpg" alt="1887, Heliogravure After Ferdinand Georg Waldmuller, The Monastery Soup"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=19th11" target="blank" title="Original Signed Watercolor Listed Orientalist Painter, Louis Tesson, 1820-1870">
+                    <div class="filterDiv 19">
+                        <img src="images/Original-Signed-Watercolor-Listed-Orientalist-Painter-Louis-Tesson-1820-1870.jpg" alt="Original Signed Watercolor Listed Orientalist Painter, Louis Tesson, 1820-1870"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old44" target="blank" title="Cook Edition After William Hogarth, 1803, Justice Triumphs">
+                    <div class="filterDiv old">
+                        <img src="images/Cook-Edition-After-William-Hogarth-1803-Justice-Triumphs.jpg" alt="Cook Edition After William Hogarth, 1803, Justice Triumphs"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old25" target="blank" title="Antique 19th C. Engraving, H.G. Beckwith After Edwin Landseer, Dog Subject">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-19th-C.-Engraving-H.G.-Beckwith-After-Edwin-Landseer-Dog-Subject.jpg" alt="Antique 19th C. Engraving, H.G. Beckwith After Edwin Landseer, Dog Subject"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old73" target="blank" title="Original Samuel Howitt Etching, The Stag Hound, Signed In Plate, 1812">
+                    <div class="filterDiv old">
+                        <img src="images/Original-Samuel-Howitt-Etching-The-Stag-Hound-Signed-In-Plate-1812.jpg" alt="Original Samuel Howitt Etching, The Stag Hound, Signed In Plate, 1812"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old42" target="blank" title="Around 1835, “Thessaly’s Destruction” Antique Old Master Engraving By Schramm">
+                    <div class="filterDiv old">
+                        <img src="images/Around-1835-“Thessaly-Destruction”-Antique-Old-Master-Engraving-By-Schramm.jpg" alt="Around 1835, “Thessaly’s Destruction” Antique Old Master Engraving By Schramm"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old62" target="blank" title="Old Master Steel Engraving By C.W. Sharpe After Eugene Modeste Lepoittevin, 1852">
+                    <div class="filterDiv old">
+                        <img src="images/Old-Master-Steel-Engraving-By-C.W.-Sharpe-After-Eugene-Modeste-Lepoittevin-1852.jpg" alt="Old Master Steel Engraving By C.W. Sharpe After Eugene Modeste Lepoittevin, 1852"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old38" target="blank" title="Antique Engraving Cook Edition After William Hogarth, Paul Before Felix, 1802">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Engraving-Cook-Edition-After-William-Hogarth-Paul-Before-Felix-1802.jpg" alt="Antique Engraving Cook Edition After William Hogarth, Paul Before Felix, 1802"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old10" target="blank" title="1786-1808, Antique Old Master Etching By Lambert After Poussin">
+                    <div class="filterDiv old">
+                        <img src="images/1786-1808-Antique-Old-Master-Etching-By-Lambert-After-Poussin.jpg" alt="1786-1808, Antique Old Master Etching By Lambert After Poussin"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old6" target="blank" title="19th C. Antique Old Master Engraving By J. Phelps After Julio Romano, Charity">
+                    <div class="filterDiv old">
+                        <img src="images/19th-C.-Antique-Old-Master-Engraving-By-J.-Phelps-After-Julio-Romano-Charity.jpg" alt="19th C. Antique Old Master Engraving By J. Phelps After Julio Romano, Charity"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old51" target="blank" title="Large Rare 1796 Old Master Engraving By Gaugain After James Northcote">
+                    <div class="filterDiv old">
+                        <img src="images/Large-Rare-1796-Old-Master-Engraving-By-Gaugain-After-James-Northcote.jpg" alt="Large Rare 1796 Old Master Engraving By Gaugain After James Northcote"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old52" target="blank" title="Large Rare 1797 Old Master Engraving By Gaugain After James Northcote">
+                    <div class="filterDiv old">
+                        <img src="images/Large-Rare-1797-Old-Master-Engraving-By-Gaugain-After-James-Northcote.jpg" alt="Large Rare 1797 Old Master Engraving By Gaugain After James Northcote"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old77" target="blank" title="1533, Antique Art, Framed Old Master Two-color Woodcut, Titus Livius">
+                    <div class="filterDiv old">
+                        <img src="images/1533-Antique-Art-Framed-Old-Master-Two-color-Woodcut-Titus-Livius.jpg" alt="1533, Antique Art, Framed Old Master Two-color Woodcut, Titus Livius"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old43" target="blank" title="Complete Set Harlot’s Progress William Hogarth, Cook Edition, 1799">
+                    <div class="filterDiv old">
+                        <img src="images/Complete-Set-Harlot-Progress-William-Hogarth-Cook-Edition-1799.jpg" alt="Complete Set Harlot’s Progress William Hogarth, Cook Edition, 1799"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old28" target="blank" title="Antique 1801 Engraving By John Ogborn After R. Smirke,As You Like It Shakespeare">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-1801-Engraving-By-John-Ogborn-After-R.-Smirke-As-You-Like-It-Shakespeare.jpg" alt="Antique 1801 Engraving By John Ogborn After R. Smirke,As You Like It Shakespeare"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old40" target="blank" title="Antique Old Master Copperplate Engraving, 1642, Matthaus Merian, Map Of Freiburg">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Copperplate-Engraving-1642-Matthaus-Merian-Map-Of-Freiburg.jpg" alt="Antique Old Master Copperplate Engraving, 1642, Matthaus Merian, Map Of Freiburg"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old8" target="blank" title="19th C. Old Master Engraving By J. Outrim After Titian, Bacchus And Ariadne">
+                    <div class="filterDiv old">
+                        <img src="images/19th-C.-Old-Master-Engraving-By-J.-Outrim-After-Titian-Bacchus-And-Ariadne.jpg" alt="19th C. Old Master Engraving By J. Outrim After Titian, Bacchus And Ariadne"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=old41" target="blank" title="Antique Thomas Cook Edition William Hogarth Moses Before The Pharoah 1796-1803">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Thomas-Cook-Edition-William-Hogarth-Moses-Before-The-Pharoah-1796-1803.jpg" alt="Antique Thomas Cook Edition William Hogarth Moses Before The Pharoah 1796-1803"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old31" target="blank" title="Antique Art, 19th C. Old Master Engraving, By W.B. Cooke, London, Narcissus">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Art-19th-C.-Old-Master-Engraving-By-W.B.-Cooke-London-Narcissus.jpg" alt="Antique Art, 19th C. Old Master Engraving, By W.B. Cooke, London, Narcissus"/>
+                    </div>
+                </a>
+                
+                <a href="ProductDetail.html?id=old80" target="blank" title="Antique Framed Print, Frederik Scherls Forlag, (no glazing)">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Framed-Print-Frederik-Scherls-Forlag-no-glazing.jpg" alt="Antique Framed Print, Frederik Scherls Forlag, (no glazing)"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old79" target="blank" title="1775, Old Master Mezzotint, Watson After Poggi, Colonel Biddulph">
+                    <div class="filterDiv old">
+                        <img src="images/1775-Old-Master-Mezzotint-Watson-After-Poggi-Colonel-Biddulph.jpg" alt="1775, Old Master Mezzotint, Watson After Poggi, Colonel Biddulph"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old81" target="blank" title="Antique Old Master Engraving, 1777, James Newton After Lorraine">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Engraving-1777-James-Newton-After-Lorraine.jpg" alt="Antique Old Master Engraving, 1777, James Newton After Lorraine"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old82" target="blank" title="Antique Old Master Engraving, 1777, James Newton After M. Ricci">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Engraving-1777-James-Newton-After-M.-Ricci.jpg" alt="Antique Old Master Engraving, 1777, James Newton After M. Ricci"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old83" target="blank" title="Antique Old Master Engraving, 1803, Nottingham Castle, Fittler After Robertson">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Engraving-1803-Nottingham-Castle-Fittler-After-Robertson.jpg" alt="Antique Old Master Engraving, 1803, Nottingham Castle, Fittler After Robertson"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old84" target="blank" title="Antique Old Master Mezzotint, 1771, Valentine Green After George Romney">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Mezzotint-1771-Valentine-Green-After-George-Romney.jpg" alt="Antique Old Master Mezzotint, 1771, Valentine Green After George Romney"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old85" target="blank" title="Antique Old Master Mezzotint, 1802, Portrait Of James Northcote By S. W Reynold">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Mezzotint-1802-Portrait-Of-James-Northcote-By-S.-W-Reynolds.jpg" alt="Antique Old Master Mezzotint, 1802, Portrait Of James Northcote By S. W Reynold"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old86" target="blank" title="Antique Old Master Mezzotint, 1802, S.W. Reynolds After John Opie">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Mezzotint-1802-S.W.-Reynolds-After-John-Opie.jpg" alt="Antique Old Master Mezzotint, 1802, S.W. Reynolds After John Opie"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old87" target="blank" title="Antique Old Master Mezzotint, 1805, Portrait Of George Morland By John Smith">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Old-Master-Mezzotint-1805-Portrait-Of-George-Morland-By-John-Smith.jpg" alt="Antique Old Master Mezzotint, 1805, Portrait Of George Morland By John Smith"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old88" target="blank" title="Antique Mezzotint after Pieter Brugel the Elder, Robertson, Around 1700">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Mezzotint-after-Pieter-Brugel-the-Elder-Robertson-Around-1700.jpg" alt="Antique Mezzotint after Pieter Brugel the Elder, Robertson, Around 1700"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old89" target="blank" title="Antique Stipple Engraving, J. Chapman after bumberry, Shakespeare, 1792">
+                    <div class="filterDiv old">
+                        <img src="images/Antique-Stipple-Engraving-J.-Chapman-after-bumberry-Shakespeare-1792.jpg" alt="Antique Stipple Engraving, J. Chapman after bumberry, Shakespeare, 1792"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old90" target="blank" title="Hand Pulled Etching (Heliogravure) After Rembrandt, Framed">
+                    <div class="filterDiv old">
+                        <img src="images/Hand-Pulled-Etching-(Heliogravure)-After-Rembrandt-Framed.jpg" alt="Hand Pulled Etching (Heliogravure) After Rembrandt, Framed"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old11" target="blank" title="1790, Antique Framed Old Master Engraving By Cecchini After Raphael, Rome">
+                    <div class="filterDiv old">
+                        <img src="images/1790-Antique-Framed-Old-Master-Engraving-By-Cecchini-After-Raphael-Rome.jpg" alt="1790, Antique Framed Old Master Engraving By Cecchini After Raphael, Rome"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=old68" target="blank" title="The Analysis Of Beauty Plates I And II Cook Edition, William Hogarth, 1798">
+                    <div class="filterDiv old">
+                        <img src="images/The-Analysis-Of-Beauty-Plates-I-And-II-Cook-Edition-William-Hogarth-1798.jpg" alt="The Analysis Of Beauty Plates I And II Cook Edition, William Hogarth, 1798"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis1" target="blank" title="Hand-Signed Pastel Portrait, 1976, Sarah Faber-Schneider Visionary German Artist">
+                    <div class="filterDiv visionary">
+                        <img src="images/Hand-Signed-Pastel-Portrait-1976-Sarah-Faber-Schneider-Visionary-German-Artist-2.jpg" alt="Hand-Signed Pastel Portrait, 1976, Sarah Faber-Schneider Visionary German Artist"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis2" target="blank" title="Hand-Signed Pastel Portrait, 1976, Sarah Faber-Schneider Visionary German Artist">
+                    <div class="filterDiv visionary">
+                        <img src="images/Hand-Signed-Pastel-Portrait-1976-Sarah-Faber-Schneider-Visionary-German-Artist.jpg" alt="Hand-Signed Pastel Portrait, 1976, Sarah Faber-Schneider Visionary German Artist"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis3" target="blank" title="Original Ink Portrait by German Visionary Artist Sarah Faber-Schneider 20th c.">
+                    <div class="filterDiv visionary">
+                        <img src="images/Original-Ink-Portrait-by-German-Visionary-Artist-Sarah-Faber-Schneider-20th-c.-2.jpg" alt="Original Ink Portrait by German Visionary Artist Sarah Faber-Schneider 20th c."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis4" target="blank" title="Original Ink Portrait by German Visionary Artist Sarah Faber-Schneider 20th c.">
+                    <div class="filterDiv visionary">
+                        <img src="images/Original-Ink-Portrait-by-German-Visionary-Artist-Sarah-Faber-Schneider-20th-c..jpg" alt="Original Ink Portrait by German Visionary Artist Sarah Faber-Schneider 20th c."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis5" target="blank" title="Original Pastel Portrait, 20th C. Sarah Faber-Schneider, German">
+                    <div class="filterDiv visionary">
+                        <img src="images/Original-Pastel-Portrait-20th-C.-Sarah-Faber-Schneider-German-2.jpg" alt="Original Pastel Portrait, 20th C. Sarah Faber-Schneider, German"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis6" target="blank" title="Original Pastel Portrait, 20th C. Sarah Faber-Schneider, German">
+                    <div class="filterDiv visionary">
+                        <img src="images/Original-Pastel-Portrait-20th-C.-Sarah-Faber-Schneider-German.jpg" alt="Original Pastel Portrait, 20th C. Sarah Faber-Schneider, German"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis7" target="blank" title="Original Pencil Portrait German Visionary Artist Sarah Faber-Schneider 20th c.">
+                    <div class="filterDiv visionary">
+                        <img src="images/Original-Pencil-Portrait-German-Visionary-Artist-Sarah-Faber-Schneider-20th-c.-2.jpg" alt="Original Pencil Portrait German Visionary Artist Sarah Faber-Schneider 20th c."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis8" target="blank" title="Original Pencil Portrait German Visionary Artist Sarah Faber-Schneider 20th c.">
+                    <div class="filterDiv visionary">
+                        <img src="images/Original-Pencil-Portrait-German-Visionary-Artist-Sarah-Faber-Schneider-20th-c..jpg" alt="Original Pencil Portrait German Visionary Artist Sarah Faber-Schneider 20th c."/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis9" target="blank" title="Original Signed Pastel Portrait, 1976, Sarah Faber-Schneider, German">
+                    <div class="filterDiv visionary">
+                        <img src="images/Original-Signed-Pastel-Portrait-1976-Sarah-Faber-Schneider-German.jpg" alt="Original Signed Pastel Portrait, 1976, Sarah Faber-Schneider, German"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis10" target="blank" title="Pastel Portrait 20thc. Sarah Faber-Schneider Visionary German Expressionist">
+                    <div class="filterDiv visionary">
+                        <img src="images/Pastel-Portrait-20thc.-Sarah-Faber-Schneider-Visionary-German-Expressionist.jpg" alt="Pastel Portrait 20thc. Sarah Faber-Schneider Visionary German Expressionist"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis11" target="blank" title="Signed Pastel Portrait German Visionary Artist Sarah Faber-Schneider 1976">
+                    <div class="filterDiv visionary">
+                        <img src="images/Signed-Pastel-Portrait-German-Visionary-Artist-Sarah-Faber-Schneider-1976.jpg" alt="Signed Pastel Portrait German Visionary Artist Sarah Faber-Schneider 1976"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis12" target="blank" title="Signed Pen Portrait German Visionary Artist Sarah Faber-Schneider 1976">
+                    <div class="filterDiv visionary">
+                        <img src="images/Signed-Pen-Portrait-German-Visionary-Artist-Sarah-Faber-Schneider-1976-2.jpg" alt="Signed Pen Portrait German Visionary Artist Sarah Faber-Schneider 1976"/>
+                    </div>
+                </a>
+                <a href="ProductDetail.html?id=vis13" target="blank" title="Signed Pen Portrait German Visionary Artist Sarah Faber-Schneider 1976">
+                    <div class="filterDiv visionary">
+                        <img src="images/Signed-Pen-Portrait-German-Visionary-Artist-Sarah-Faber-Schneider-1976.jpg" alt="Signed Pen Portrait German Visionary Artist Sarah Faber-Schneider 1976"/>
+                    </div>
+                </a>
+
+            </div> 
+        </main>
+        <footer>
+            <div id="footer-1">
+                <p>Local buyers (17701 zip code) please contact before purchase for FREE delivery.</p>
+            </div>
+            <div id="footer-2">
+                <div>
+                    <h3><b>Contact Information</b></h3>
+                    <div><a href= "https://www.ebay.com/usr/artseth2" target="blank" style="font-size:30px" >eBay</a></div>
+                </div>
+                <div>
+                    <h3><b>Why Choose Us</b></h3>
+                    <div>&#10031; Extensive Collection</div>
+                    <div>&#10031; Priority Mail with Insurance</div>
+                    <div>&#10031; 100% Positive Feedback</div>
+                </div>
+                <div>
+                    <h3><b>Have Questions? Ask Us Now</b></h3>
+                    <p>If you have any questions, please send us an email</p>
+                    <form action="mailto:goodman@lycoming.edu" method="post" enctype="text/plain">
+                        Name: <input type="text" name="name"><br>
+                        E-mail: <input type="text" name="mail"><br>
+                        Comment: <input type="text" name="txtInput" style="height: 100px; width: 310px"><br>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+            </div>
+            <div id="footer-3">
+                <p>&#169; 2022 ArtSeth by Thu Goodman</p>
+            </div>
+        </footer>
+    </body>
+</html>
