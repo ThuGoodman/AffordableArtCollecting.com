@@ -1,0 +1,574 @@
+body{
+    font-size: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #ffff;
+}
+
+header{
+	background: #ffffff;
+    padding-top: 1%;
+    text-align: center;
+    width:100%;
+     
+}
+
+#logo{
+    width: 20%;
+    display: inline-block;
+    padding-right: 1%;
+    padding-left: 0;
+}
+
+.banner{
+    position: relative; 
+    text-align: center;
+}
+
+.banner .bottom-text{ 
+
+    position: absolute;
+    bottom: 10%;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+}
+
+.bottom-text .button-top{
+    display: block;
+	background-color: #a3d1ae;
+	width:25%;
+    text-decoration: none;
+    padding: 1%;
+    color: #050505;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 575px){
+    h1{
+        font-size: 150%;
+    }
+    .bottom-text .button-top{
+        width:100%;
+    }
+}
+footer {
+    width:100%;
+    background: #ffff;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Web\ FOOTER\ 1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+}
+
+#footer-1{
+    background: #ffff;
+    text-align:center;
+    clear:both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 150%;
+    
+}
+
+#footer-2 > div{
+    width: 30%;
+    display: inline-block;
+    margin-left: 2%;
+    float:left;
+    padding: 3%;
+    color:#ffff;  
+}
+
+@media screen and (max-width: 1100px){
+   #footer-2 > div{
+        width: 100%;
+    }
+} 
+
+#footer-3{
+    background: #ffff;
+    text-align:center;
+    clear:both;
+    height:50px;
+    padding-top: 5px;
+    font-size: 80%;
+}
+
+h1{
+    color: #000;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+nav{
+    font-variant: small-caps;
+	font-family: serif;
+	font-size: 100%;
+    font-weight: bold;  
+    
+}
+.navbar-brand{
+    text-align: left;
+}
+.navbar-nav.navbar-center{
+    position: absolute;
+    left: 35%;
+    transform: translatex(-20%); 
+}
+@media screen and (max-width:575px){
+    .navbar-nav.navbar-center{
+        position: relative;
+        left: 50%;
+        transform: translatex(-50%); 
+    }
+}
+.nav-link{
+    color: #000 !important;
+}
+.nav-link:hover{
+    color: #f74361 !important;
+}
+
+nav a{
+	display: inline-block;
+	background-color:none;
+    width: 100%;
+    font-family: serif;
+    text-decoration: none;
+    color: #f74361;
+    text-align: center;
+    opacity: 1;
+    padding: 2%;
+    margin: 1%;
+}
+
+/* nav a:hover{
+    background: none;
+    color: #f74361;
+} */
+
+
+@media only screen and (max-width:575px) {
+    .navbar-brand{
+        text-align: center;
+    }
+    #logo{
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+    } 
+}
+
+h2{
+    padding-top: 1%;
+    color: #6b6565;
+    text-align: center;
+}
+
+/* For Container 1 index.html */
+
+#container-1{
+    width:100%;
+    background: #ffff;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-top: 1%;
+}
+video{
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.button{
+    display: block;
+	background-color: #a3d1ae;
+	width:25%;
+    text-decoration: none;
+    padding: 1%;
+    color: #050505;
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (max-width: 600px){
+    .button{
+        width: 100%;
+    }
+}
+.button:hover{
+    background-color: #1d75c2;
+    color: #ffff;
+    text-decoration: none;
+}
+.button:focus{
+    background-color: #1d75c2;
+    color: #ffff;
+    
+}
+.button:active{
+    border: 5px solid #000000;
+}
+
+/* For Container 2 index.html */
+
+#container-2, #container-4, #container-5{
+    width:100%;
+    background: #c0c2c2;
+    text-align: center;  
+    margin: 0 auto;
+}
+/* Caption text */
+.text{
+    color: #020202;
+    font-size: 80%;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+#container-2 .featured{
+    width: 23%;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    padding: 2%;
+}
+#container-2 .featured a{
+    text-decoration: none;
+}
+#container-2 img{
+    width: 100%;
+}
+#container-2 a, #container-5 a{
+    margin: 0 auto;
+}
+@media screen and (max-width:1000px){
+    #container-2 .featured{
+        width: 46%;}
+}
+@media screen and (max-width:600px){
+    #container-2 .featured{
+        width: 100%;}
+}
+
+/* For Container 3 index.html */
+
+#container-3{
+    width:100%;
+    background: #ffff;
+    text-align: center;
+    display: block;
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* Create two equal columns that sits next to each other */
+.column{
+    flex: 22%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    border: 4px solid #ffffff;
+    width: 100%;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px){
+    .column{
+        flex: 45%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+} */
+
+/* For Container 4 index.html */
+
+#container-4 img{
+    width:90%;
+    display:inline-block;
+}
+
+
+/* artists.html */
+
+.container{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.container > div > a > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container img{
+    border-radius: 10px;
+    padding: 1%;
+    
+}
+.description{
+    display: none;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container > div:hover{
+    transform: scale(1.1);
+}
+.container > div:hover .description{
+    display: block;
+    text-align: center;
+    opacity: 1;
+    color:#ff0808;
+}
+.container > div:hover img{
+    opacity: 0.7;
+}
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color:#ded231;
+} 
+
+
+  /* newAcquisitions.html */
+
+  /* columns side by side */
+  .newArt{
+      width: 100%;
+      display: inline-block;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .new{
+      float: left;
+      width: 25%;
+      margin-bottom: 1%;
+      padding: 1%;
+  }
+  @media screen and (max-width: 1000px) {
+    .new {
+      width: 50%;
+      display: block;
+    }
+  } 
+  /* Display the columns below each other instead of side by side on small screens */
+    @media screen and (max-width: 650px) {
+    .new {
+      width: 100%;
+      display: block;
+    }
+  } 
+  
+  /* Add some shadows to create a card effect */
+  .art {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .box {
+    padding: auto;
+  }
+  
+  /* Clear floats */
+  .box::after, .newArt::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 70%;
+    text-align: center;
+  }
+
+  .art > img{
+      width: 100%;
+      display: inline-block;
+      padding: 1%;
+  }
+  .newbutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .newbutton a{
+    text-decoration: none;
+    color: white;
+  }
+
+  /* collections.html */
+
+#myBtnContainer{
+    text-align: center;
+}
+.gallery {
+    overflow: hidden;
+    margin-top: 1%;   
+  }
+
+  .filterDiv {
+    float: left;
+    background-color:none;
+    color: #ffffff;
+    width: 25%;
+    line-height: 100px;
+    text-align: center;
+    margin: 2%;
+    padding: 1%;
+    display: none; /* Hidden by default */
+  }
+  @media screen and (max-width: 800px) {
+    .filterDiv{
+      width: 50%;
+    }
+  } 
+  .gallery > a > div > img{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1%;
+    border: 2px solid #000000;
+}
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  .btn a{
+      text-decoration: none;
+  }
+  /* Add a light grey background on mouse-over */
+  .btn a:hover {
+    background-color: #ddd;
+  }
+  .btn a:focus{
+      background-color:#339966;
+      color: #ffff;
+  }
+  /* Add a dark background to the active button */
+  .btn a:active {
+    background-color: #ffff;
+    color: #020202;
+  }
+  
+  /* For videoBlog.html */
+
+  .video{
+      width: 100%;
+      display: inline-block;
+      border: 3px solid #000;
+      padding-top: 2%;
+  }
+  .left{
+      width: 73%;
+      display: inline-block;
+      
+  }
+  .right{
+    width: 25%;
+    display: inline-block;
+  }
+  @media screen and (max-width: 800px) {
+    .left{
+      width: 100%;
+    }
+    .right{
+        width: 100%;
+      }
+      .small{
+        width: 32.5%;
+        display: inline-block;
+        margin: 0 auto;
+        
+        
+      }
+  } 
+  .bottom{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+  .part{
+      width: 24.6%;
+      display: inline-block;
+      position: relative;  
+  }
+  @media screen and (max-width: 800px) {
+    .part{
+      width: 49.3%;
+    }
+  }
+  .overlay{
+      position: absolute;
+      bottom: 0;
+      background-color: #000;
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1;
+      width: 100%;
+      transition: .5s ease;
+      opacity: 0;
+      color: white;
+      font-size: 20px;
+      padding: 0;
+      text-align: center;
+  }
+  /* When you mouse over the container, fade in the overlay title */
+  .part:hover .overlay{
+      opacity: 1;
+  }
+  .part > video{
+      display: block;
+      width: 100%;
+      height: auto;
+  }
